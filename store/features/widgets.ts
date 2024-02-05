@@ -30,7 +30,7 @@ const widgets = createSlice({
     } as WidgetsState;
   },
   reducers: {
-    resolve: (state, { payload: { name } }: { payload: { name: string | string[] } }) => {
+    resolve: (state:any, { payload: { name } }: { payload: { name: string | string[] } }) => {
       function internalResolve (name: string) {
         if (state.resolved[name]) {
           console.warn(`widget ${name} is already resolved`);

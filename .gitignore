@@ -2,7 +2,7 @@ node_modules
 dist
 page-dist
 .vercel
-.env
+
 .db
 privatekey
 publickey
@@ -36,7 +36,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+
 
 # vercel
 .vercel

@@ -1,0 +1,16 @@
+HOST:
+gateway01.ap-southeast-1.prod.aws.tidbcloud.com
+
+PORT:
+4000
+
+USERNAME:
+uLuwVars5ccvgst.root
+
+PASSWORD:
+nZWll1c1ceShU8WQ
+
+DATABASE:
+fortune500
+
+CA:
